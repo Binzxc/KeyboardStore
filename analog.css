@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
+
+body {
+    font-size: 90%;
+    font-family: "Courier New", Courier, monospace;
+    letter-spacing: 0.10em;
+    background: #B8E1FC;
+    background: radial-gradient(circle farthest-corner at center center, #B8E1FC 0%, #231421 83%);
+}
+    #page {
+    max-width: 1140px;
+    min-width: 720px;
+    margin: 30px auto 10px auto;
+    padding: 20px;
+    border: 5px groove #000;
+    background-color: #c3bfc5;
+    height: 800px;
+}
+    #logo {
+    width: 120px;
+    margin: -190px 50px auto;
+}
+    #title{
+        font-family: 'Mooli', sans-serif;
+        margin: auto auto auto 300px;
+        font-size: 57px;
+        color: #232124;
+        background: linear-gradient(to right, #232124 25.4%, #dba14b 0%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    }
+    
+    #extra{
+        font-size: 9.5px;
+        font-family: 'Mooli', sans-serif;
+        letter-spacing: 0.50em;
+        margin: -100px auto auto 309px;
+    }
+
+    ul {
+    width: 570px;
+    padding: 15px;
+    margin: 20px auto 0px auto;
+    border-top: 2px solid #000;
+    border-bottom: 1px solid #000;
+    text-align: center;
+    background-color: black;
+}
+    li {
+    display: inline;
+    margin: 0px 2px;
+ 
+}
+    p {
+    font-size: 25px;
+    text-align: center;
+    width: 600px; 
+    margin: 20px auto 20px auto; 
+    font-family: 'Playfair Display', serif;
+    font-weight: normal;
+}
+    a {
+    color: white;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 6px 18px 5px 18px;
+}
+    a:hover, a.on { 
+    color: #f3f3f3;
+    background-color: #757373;
+}
+
+#bright img {
+    -webkit-filter: brightness(30%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+    margin: 10px 450px 25px 270px;
+    box-shadow: 3px 3px 6px 1px rgba(19, 0, 0, 1);
+}
+#bright img:hover{
+    -webkit-filter: brightness(100%);
+}
+#piano img{
+    max-width: 20%;
+    margin: -120px auto auto 920px;
+}
